@@ -1,5 +1,5 @@
 # Adaptix-inject-auto BOF
-auto injection (stable for Adaptix v0.11)
+auto injection (stable for Adaptix v0.11 and later)
 
 BOF that enables the `inject-auto` command (running as Admin or SYSTEM) to inject into random PIDs of system processes: `svchost.exe` (SYSTEM only), `winlogon.exe`, and `spoolsv.exe`. You can specify custom target processes in the `inject_pid.c` file.
 
